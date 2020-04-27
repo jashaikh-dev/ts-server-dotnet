@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ts-models\ts-models.csproj" />
+    <ProjectReference Include="..\ts-database-service\ts-database-service.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ts_api</RootNamespace>
+  </PropertyGroup>
+
+
+</Project>
