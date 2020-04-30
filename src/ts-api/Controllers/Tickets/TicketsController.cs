@@ -12,7 +12,6 @@ namespace ts_api.Controllers.Tickets
     public class TicketsController : ControllerBase
     {
         
-
         [HttpGet]
         public string  Get()
         {
